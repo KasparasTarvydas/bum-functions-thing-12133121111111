@@ -72,3 +72,55 @@ const d6 = () => {
 }
 
 d1(); d2(); d3(); d4(); d5(); d6()
+
+
+
+
+
+
+//const namee = prompt("ivesk varda");
+//console.log(namee);
+
+//alert("labas", $(namee),"geros dienos")
+
+
+const e1 = () => {
+    const n1 = prompt("nr1");
+    const n2 = prompt("nr2");
+    alert(n1*1+n2*1)
+}
+const e2 = () => {
+    const n = prompt("ivesk sk")
+    alert((n*1)*(n*1))
+}
+const e3 = () => {
+    const n = prompt("Ivesk skaiciu 2")
+    if (n*1 == 2) {
+        alert("Teisingai")
+    } else {
+        alert("NETEISINGAI")
+    }
+}
+const e4 = () => {
+    const n1 = prompt("Ivesk zodi 1")
+    const n2 = prompt("Ivesk zodi 2")
+    alert(n1+" "+n2)
+}
+const e5 = () => {
+    const n = prompt("ivesk sk")
+    if ((n*1)%2 == 0){
+        alert("Lyiginis")
+    }else{
+        alert("Nelyiginis")
+    }
+}
+const e6 = () => {
+    
+}
+const e7 = () => {
+
+}
+const e8 = () => {
+    
+}
+e1(); e2(); e3(); e4(); e5(); e6(); e7(); e8(); 
